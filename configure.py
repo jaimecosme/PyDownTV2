@@ -7,7 +7,7 @@ import subprocess as sp
 if __name__ == "__main__":
 
 	secrets_pyFile = open(os.path.join(os.path.curdir, "spaintvs", "secrets.py"), "w")
-	secrets_pyFile.write("A3PLAYER_SECRET = ''\n")
+	secrets_pyFile.write("A3PLAYER_SECRET = 'QWtMLXs414Yo+c#_+Q#K@NN)'\n")
 	secrets_pyFile.close()
 
 	os.chdir("Web")
