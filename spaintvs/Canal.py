@@ -66,10 +66,6 @@ class Canal(object):
         '''
         return self.__OPCS
     opcs = property(getOPCS)
-
-    def getChannelName(self):
-        return self.__NOMBRE_CANAL
-    name = property(getChannelName)
     
     def __isUrlValida(self):
         '''
